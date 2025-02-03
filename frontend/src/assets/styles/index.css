@@ -10,6 +10,86 @@ main {
   color: #f8e825;
 }
 
+.product-screen {
+  padding: 20px;
+}
+
+.product-image {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  height: auto;
+}
+
+.product-details {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.product-name h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.product-price {
+  font-size: 1.5rem;
+  color: #28a745;
+}
+
+.product-description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.product-actions {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.in-stock {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.out-of-stock {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.add-to-cart-btn {
+  background-color: #2a5298;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #1e3c72;
+}
+
+.add-to-cart-btn:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.product-card {
+  transition: 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .rating-text {
   font-size: 0.8rem;
   font-weight: 600;
@@ -17,10 +97,43 @@ main {
 }
 
 .product-title {
-  height: 2.5em; /* Set a fixed height */
-  overflow: hidden; /* Hide overflow content */
-  text-overflow: ellipsis; /* Add ellipsis for long text */
-  white-space: nowrap; /* Prevent wrapping */
+  height: 2.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #333;
+}
+
+.product-price {
+  color: #4e4e4e;
+}
+
+.product-image {
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.brand-text {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.nav-link-custom {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  color: #fff !important;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link-custom:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #1e3c72, #2a5298);
 }
 
 table td,

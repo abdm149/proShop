@@ -1,5 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
+import index from "../assets/styles/index.css";
+
 const Footer = () => {
     const currentYear = new Date().getFullYear()
   return (
